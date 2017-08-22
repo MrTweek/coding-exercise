@@ -30,3 +30,11 @@ http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 ### Implementation
 
 It's up to you how you implement this, especially how you render the visual representation of the game. If you are short for time, it's ok to not do any visual rendering at all, but it should be clear how that would be implemented in future. Tests are also optional, but looked upon very favourably if included. 
+
+### Solution
+
+`board.php` contains the actual implementation of a Game of Life Board.
+
+`gol.php` contains a working example that can be run on the command line. It has a still life, an oscillator and a glider.
+
+Output is very basic and done via CLI which PHP is not too great at. Works fine in my terminal on Linux, but I have not tested it on other machines.
